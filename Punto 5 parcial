@@ -1,0 +1,22 @@
+# Número Inteligentes
+
+from random import randint, randrange
+from secrets import randbits
+
+
+CantidadNum= ("Solicitar cantidad de numeros")
+CantidadNum = range(10)
+CantidadNum = range(1, 10)
+list(CantidadNum)
+[ 1, 2, 3 , 4, 5, 6, 7, 8, 9, 10]
+print(list(CantidadNum))
+
+import random
+random_numbers = [random.randint(1, 10) for x in range(10)]
+print(random_numbers)
+
+import random
+
+random_numbers = [random.randint(1, 10) for x in range(10)]
+CantidadNum = random.uniform(0.1 , 1.0)
+print(f'Cantidad numero es : {CantidadNum}')
